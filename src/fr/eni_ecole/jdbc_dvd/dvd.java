@@ -21,7 +21,7 @@ public class dvd{
 	
 		
 		try {
-			Client client = new Client("MEN001", "Mme", "Méjjjez","Clémence", "16 Allée des Asturies","35000", "Rennes", "0654124145",new Date(1988-01-01),true); 
+			Client client = new Client("MEN001", "Mme", "Méjjjez","Clémence", "16 Allée de la république","35000", "Rennes", "0654124145",new Date(1988-01-01),true); 
 			System.out.println(dao.update(client));
 		} catch (SQLException e) {
 			e.printStackTrace();
